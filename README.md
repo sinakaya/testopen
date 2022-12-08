@@ -32,7 +32,7 @@ docker build -t testopen https://github.com/sinakaya/testopen.git#main
 
 3. Run docker container
 ```bash
-docker run --name testopen --privileged -p 991:991 -d testopen
+docker run --name testopen --privileged -p 991:991 -p 991:991/udp -d testopen
 ```
 
 4. Add user
